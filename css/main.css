@@ -21,6 +21,11 @@ body {
   padding: 10px;
 }
 
+a #title, a #title:hover, a #title:active, a #title:visited {
+  text-decoration: none;
+  color: black;
+}
+
 #counter {
   width: 200px;
 }
