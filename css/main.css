@@ -7,6 +7,11 @@ html, body{
   font-family: "Comic Sans MS", cursive, sans-serif;  
 }
 
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
 body {
   background-image: url("../img/bg-tile.jpg");
   background-repeat: repeat;
@@ -67,29 +72,6 @@ p {
   font-size: 18px;
   color: white;
   padding: 3px;
-}
-
-.container {
-  white-space: nowrap;
-}
-
-.col-2 {
-  display: inline-block;
-  width: 50%;
-  white-space: normal;
-  overflow: hide;
-}
-
-.col-3 {
-  display: inline-block;
-  width: 33.33%;
-  white-space: normal;
-}
-
-.col-4 {
-  display: inline-block;
-  width: 25%;
-  white-space: normal;
 }
 
 .top {
