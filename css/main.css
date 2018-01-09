@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+} 
+
+html, body{
+  height:100%;
+  font-family: "Comic Sans MS", cursive, sans-serif;  
+}
+
+body {
+  background-image: url("../img/bg-tile.jpg");
+  background-repeat: repeat;
+  height: 1024px;
+}
+
+#title {
+  display: inline-block;
+  background-color: #9933ff;
+  text-align: center;
+  font-size: 48px;
+  padding: 10px;
+}
+
+#counter {
+  width: 200px;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+a {
+  font-size: 32px;
+}
+
+.link-info {
+  background-color: #ebe776;
+  color: black;
+  font-size: 18px;
+}
+
+.center {
+  text-align: center;
+}
+
+hr.fire {
+  background: url("../img/firebar.gif") no-repeat top center;
+	height: 60px;
+	border: none !important;
+}
+
+hr.blood {
+  background: url("../img/bloodbar.gif") no-repeat top center;
+	height: 30px;
+	border: none !important;
+}
+
+p {
+  background-color: #660033;
+  font-size: 18px;
+  color: white;
+  padding: 3px;
+}
+
+.container {
+  white-space: nowrap;
+}
+
+.col-2 {
+  display: inline-block;
+  width: 50%;
+  white-space: normal;
+  overflow: hide;
+}
+
+.col-3 {
+  display: inline-block;
+  width: 33.33%;
+  white-space: normal;
+}
+
+.col-4 {
+  display: inline-block;
+  width: 25%;
+  white-space: normal;
+}
+
+.top {
+  vertical-align: top;
+}
+
+.top-pad-35 {
+  padding-top: 35px;
+}
+
+.black-container {
+  background: black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.black-container .content {
+  color: white;
+  text-align: left;
+}
+
+.black-container p {
+  background-color: black;
+}
+
+.pic-label {
+  background-color: #00ff00;
+  color: black;
+  font-size: 28px;
+  padding: 2px;
+  margin-bottom: 12px;
+}
+
+.zip {
+  font-size: 18px;
+  color: #a38aa1;
+  padding-left: 28px;
+}
+
+.zap {
+  font-size: 24px;
+  color: #7cd3e1;
+  padding-left: 14px;
+  
+}
+
+.zeep {
+  font-size: 12px;
+  color: #22a6d1;
+  padding-left: 8px;
+}
+
+.zoop {
+  font-size: 36px;
+  color: #44aa11;
+}
+
+.picture-container {
+  width: 100%;
+  height: 500px;
+  margin-left: 8px;
+  overflow: scroll;
+  background: #cccccc;
+}
+
+.pictures {
+  width: 1000px;
+  height: 1000px;
+  overflow: scroll;
+  overflow-y: scroll;
+}
+
+.link-label {
+  background-color: #11ffcc;
+  color: black;
+  font-size: 40px;
+  padding: 4px;
+  margin-bottom: 17px;
+}
+
+.white-container {
+  background: white;
+  padding: 15px;
+  padding-bottom: 50px;
+  margin: 15px;
+}
+
+.white-container .content {
+  color: black;
+  text-align: left;
+}
+
+.white-container p {
+  background-color: white;
+}
+
+.guestbook-container {
+  padding-bottom: 14px;
+}
+
+::-webkit-scrollbar {
+  width: 17px;
+  height: 17px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #999999;
+  border: 10px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #999999;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #666666;
+}
+::-webkit-scrollbar-track {
+  background: #e6e6e6;
+  border: 27px none #61b1ff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #e6e6e6;
+}
+::-webkit-scrollbar-track:active {
+  background: #b3b3b3;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
