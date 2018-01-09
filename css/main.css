@@ -21,7 +21,7 @@ body {
   padding: 10px;
 }
 
-a #title, a #title:hover, a #title:active, a #title:visited {
+a.no-style, a.no-style:hover, a.no-style:active, a.no-style:visited {
   text-decoration: none;
   color: black;
 }
