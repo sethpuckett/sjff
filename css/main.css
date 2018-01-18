@@ -41,7 +41,7 @@ a.no-style, a.no-style:hover, a.no-style:active, a.no-style:visited {
   margin-bottom: 30px;
 }
 
-a {
+a.big-link {
   font-size: 32px;
 }
 
